@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  /* Barra de navegacion */
+  
+  li a {
+    display: block;
+    color: gray;  
+  } 
+  li a:hover {
+    background-color: #FF3F3F;
+    border-radius: 10%;
+  }  
+  .span{
+      text-align: center;
+  }
+
+
+
+
+  .servicio-fila{
+    width: 100%;
+  text-align: center;
+}
+
+#Formulario-contacto{
+    background: #fbfafa;
+    border-radius: 5px;
+}
+/* Footer o pie de pagina */
+footer{   
+    text-align: center;
+    min-height: 10px;
+   
+}
+footer p{
+    text-align: center;
+    padding: 0px;
+      
+}
+#iconos{
+    font-size: 37px;
+    color: white;
+    padding: 0;
+}
+
+/* Pantallas anchas */
+@media (max-width:1200px){
+    
+}
+  /* pantallas medianas */
+
+  @media (max-width:768px){
+      #intro{
+          width: 90% !important;
+      }
+      .servicio-fila{
+          width: 100%;
+        text-align: center;
+      }
+  }
+  
